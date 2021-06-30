@@ -1,0 +1,15 @@
+Camera Distance,1.25 LensSize,0.2,2
+
+Material dark,0,0,0.1 light,0.6,0.2,1 Ks,1 Krefr,0.8 n,1.1 DRTRange,45
+Material dark,BrickDark.jpg, light,Brick.jpg Ks,1 P,100 TileSize,20
+Material dark,0,0.05,0.1 light,0.1,0.3,0.5 Ks,1 Krefl,0.5 DRTRange,180
+Material dark,Background2.jpg light,Background2.jpg
+Material light,Marble.jpg Ks,1 Krefl,0.2
+
+Tetrahedron -2 2 -10 2 2 2 0
+Sphere 0 0 -100 10 4
+Sphere 5 -2 -20 2 2
+Plane 0 15 0 1 0 -1 0 0 0 -1
+EnvMap 3
+
+Point 5 -10 -5 1 1 1

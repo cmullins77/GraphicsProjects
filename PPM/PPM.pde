@@ -239,8 +239,8 @@ void writeP3Header(PrintWriter output, PVector size) {
 
 void writeColors(PrintWriter output, PImage img) {
   colorMode(RGB, 255);
-  for (int y = 0; y < img.height; y++) {
-    for (int x = 0; x < img.width; x++) {
+  for (int y = img.height - 1; y >= 0; y--) {
+    for (int x = img.width - 1; x >= 0; x--) {
       color c = img.get(x, y);
       int red = (int)(red(c));
       int green = (int)(green(c));

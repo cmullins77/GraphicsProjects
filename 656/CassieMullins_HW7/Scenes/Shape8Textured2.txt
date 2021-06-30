@@ -1,0 +1,14 @@
+Camera 0 0 0 0 0 -1 0 1 0 1 1 2
+
+
+Material 0.3 0 0.1 1 0.2 0.4 1 1 1 1 1000
+Material 0.1 0.1 0.4 0.5 0.6 0.9 1 1 1 1 1000
+Material 0 0.05 0.1 0.1 0.3 0.5 1 1 1 1 10
+TextureMat Dark.jpg Marble.jpg Specular.jpg 1 1000 30 Normal2.jpg
+TextureMat Dark.jpg Marble.jpg Specular.jpg 1 1000 50 Normal3.jpg
+TextureMat Dark.jpg Marble.jpg Specular.jpg 1 1000 50 Normal4.jpg
+
+OBJ 0 0 -8 tetrahedron.obj 5
+Plane 0 10 0 1 0 -1 0
+
+Point 2 -3 0 1 1 1

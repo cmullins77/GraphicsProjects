@@ -1,0 +1,13 @@
+Camera Distance,1.25
+
+Material dark,0.3,0,0.1 light,1,0.2,0.4 Ks,1
+Material dark,0.1,0.1,0.4 light,0.5,0.6,0.9 Ks,1
+Material dark,0,0.05,0.1 light,0.1,0.3,0.5 Ks,1 P,10
+TextureMat dark,Dark.jpg light,Marble.jpg Ks,1 TileSize,30 NormalMap,Normal2.jpg
+TextureMat dark,Dark.jpg light,Marble.jpg Ks,1 TileSize,50 NormalMap,Normal3.jpg
+TextureMat dark,Dark.jpg light,Marble.jpg Ks,1 TileSize,50 NormalMap,Normal4.jpg
+
+OBJ 0 0 -8 tetrahedron.obj 5
+Plane 0 10 0 1 0 -1 0
+
+Point 2 -3 0 1 1 1

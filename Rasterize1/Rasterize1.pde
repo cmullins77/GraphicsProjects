@@ -103,6 +103,7 @@ void drawHalfPlane(color c1, color c2, PVector p0, float theta) {
         for(float n = 0; n < SAMPLES + 1; n++) {
            float rm = random(m, m+(1/SAMPLES));
            float rn = random(n, n+(1/SAMPLES));
+           println(rm + " " + rn);
            float value = v0.x*rm + v0.y*rn - (v0.x*p0.x + v0.y*p0.y);
            if (value < 0) {
              subPixelsIn++;
