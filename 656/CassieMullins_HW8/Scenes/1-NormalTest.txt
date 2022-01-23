@@ -1,0 +1,13 @@
+Camera Distance,1.25
+
+Material light,1,0.2,0.4 Ks,1 P,10000
+Material light,0.5,0.6,0.9 Ks,1
+Material light,0.1,0.3,0.5 Ks,1
+Material light,Marble.jpg TileSize,10
+
+Sphere 0 0 -20 3 0
+Sphere 2 -1 -15 0.5 2
+Plane 0 10 0 1 0 -1 0
+#OBJ -1 0 -8 Icosahedron.obj 3
+
+Point 5 -10 -5 1 1 1
